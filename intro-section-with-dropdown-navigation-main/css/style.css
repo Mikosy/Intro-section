@@ -1,0 +1,144 @@
+*{
+    font-family: Epilogue, sans-serif;
+}
+
+:root{
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+    --Font-size: 18px;
+}
+#fluid{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+nav{
+    font-size: 14px;
+}
+nav h2{
+    font-weight: 700;
+}
+nav .navbar-nav{
+    margin-left:2rem;
+}
+.navbar-nav .nav-link{
+    color:var(--Medium-Gray);
+    font-weight: 500;
+
+}
+.navbar-nav .nav-link:hover{
+    color:var(--Almost-Black);
+}
+.destination:hover .dropdown-menu-end{
+    display:block;
+}
+.destination:hover .dropdown-menu{
+    display:block;
+}
+.navbar-nav .nav-item .dropdown-menu-end{
+    padding:10px;
+    margin-top:10px;
+}
+.navbar-nav .nav-item .dropdown-menu{
+    padding:10px;
+    margin-top:10px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item{
+    font-size: 0.8rem;
+}
+
+.registration #register{
+    border:1px solid var(--Medium-Gray);
+    padding:0 10px;
+    border-radius: 12px;
+}
+
+.remote h1{
+    font-size:3.70rem;
+    margin-top:8.5rem;
+    font-weight: 700;
+
+}
+.remote p{
+    width:69%;
+    text-align: justify;
+}
+.remote img{
+    width:auto;
+    height: 50%;
+}
+.remote button{
+    padding:13px 26px;
+    border:1px solid var(--Medium-Gray);
+    border-radius: 12px;
+    background-color: var(--Almost-Black);
+    color:var(--Almost-White);
+    font-weight: 500;
+    margin-top:3.8rem;
+    margin-bottom:3rem;
+
+}
+.remote button:hover{
+    color:var(--Almost-Black);
+    background-color: transparent;
+
+}
+.section-one .row{
+    margin-left:2.5rem;
+}
+#mobile{
+    display:none;
+}
+.uche{
+    display:none;
+}
+
+
+@media screen and (max-width:990px){
+
+    #mobile{
+        display:block;
+        height:auto;
+        width:100%;
+        margin-top:2rem;
+    }
+    #desktop{
+        display:none;
+    }
+    .section-one{
+        margin:0;
+        padding:0;
+        text-align: center;
+    }
+    .remote h1{
+        font-size:2.00rem;
+        margin-top:1.5rem;
+        font-weight: 700;
+        width:100%;
+    }
+    .section-one .row{
+        margin-left:0;
+    }
+    .remote p{
+        width:100%;
+        text-align: center;
+    }
+    .remote button{
+        margin:0;
+    }
+    #maker{
+        margin:0;
+        padding:0;
+    }
+    .uche{
+        display:block;
+    }
+    .offcanvas-text li a{
+        text-decoration: none;
+        font-size:1rem;
+        font-weight: 500;
+    }
+    
+}
